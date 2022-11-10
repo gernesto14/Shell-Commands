@@ -1,0 +1,34 @@
+Navigating Files and Directories
+https://swcarpentry.github.io/shell-novice/02-filedir/index.html#key-points
+
+
+Bash
+$ ls -F /
+ls is the command, with an option -F and an argument /
+
+pwd prints the user’s current working directory.
+
+ls [path] prints a listing of a specific file or directory; ls on its own lists the current working directory.
+
+cd [path] changes the current working directory.
+
+Most commands take options that begin with a single -.
+
+Directory names in a path are separated with / on Unix, but \ on Windows.
+
+/ on its own is the root directory of the whole file system.
+
+. on its own means ‘the current directory’; .. means ‘the directory above the current one’.
+
+
+***-----------******-----------******-----------******-----------******-----------******-----------***
+
+
+Working With Files and Directories
+https://swcarpentry.github.io/shell-novice/03-create/index.html
+
+We should still be in the shell-lesson-data directory 
+
+
+
+
